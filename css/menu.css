@@ -19,7 +19,7 @@ ul li.menu {
     margin-right: -4px;
     position: relative;
     padding: 10px 30px;
-    background: green;
+    background: #2490CC;
     cursor: pointer;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
