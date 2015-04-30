@@ -1,0 +1,186 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body{
+    background-image: url("http://static.giantbomb.com/uploads/original/7/71263/1836880-test_your_might.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    color: yellow;
+    font-weight: bold;
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 0px 1px 30px #fff;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+    height: 10%;
+    padding: 7em;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+nav ul li:first-child {
+    float: left;
+}
+
+nav ul li:last-child {
+    float: right;
+}
+
+nav a {
+
+    color: yellow;
+
+    font-weight: bold;
+    font-size: 49px;
+    text-shadow: 1px 1px 1px #000;;
+}
+
+div > p{
+    padding: 30px;
+}
+
+.close{
+    text-align: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-image: url("http://www.gameinformer.com/cfs-filesystemfile.ashx/__key/CommunityServer-Components-ImageFileViewer/CommunityServer-Blogs-Components-WeblogFiles-00-00-00-00-09/2604.spinerip.jpg_2D00_610x0.jpg");
+    backround-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.content {
+    color: #fff;
+    background: #e74c3c;
+    position: relative;
+    height: auto;
+    width: 600px;
+    border-radius: 3px;
+    top: 15%;
+    margin: auto auto;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+
+.quiz{
+    width: 60%;
+    padding: 25% 0em 1em;
+    margin: -7% auto;
+    border: 2px dotted gray;
+    align-content: center;
+    background-color: green;
+    background-size: cover;
+    box-shadow: 0px 1px 30px #fff;
+}
+
+.container{
+    width: 50%;
+    box-sizing: border-box;
+    background: none repeat scroll 0% 0% #F5F5F5;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px #fff;
+    margin: auto;
+    border: 8em;
+    padding: 5em;
+}
+
+.quizzes{
+    float: left;
+    width: 18%;
+    min-width: 17px;
+    margin-left: 3em;
+    padding: 2em;
+}
+
+#stuff{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+/**************/
+.fadeIn{
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    visibility: visible !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        -webkit-transform: scale(1.1);
+    }
+    80% {
+        -webkit-transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}

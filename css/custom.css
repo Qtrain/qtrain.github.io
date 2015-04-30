@@ -26,9 +26,8 @@ blockquote{
 }
 
 img {
-    height: 300px;
-    width: 650px;
-    padding-left: 10em;
+    height: auto;
+    width: auto;
 }
 
 .sect{
@@ -51,5 +50,7 @@ ul{
 
 
 p{
-    padding: 0em 4em 2em 8em ;
+    padding: 2em 2em 2em 2em ;
+    font-weight: bold;
+    font-size: 12px;
 }

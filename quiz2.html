@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Quiz</title>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8"/>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href=" css/stylesheet.css"/>
+
+    <!-- JavaScript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src=" js/app.js"></script>
+    <script>
+        $('#animatedElement').click(function() {
+            $(this).addClass("slideUp");
+        });
+    </script>
+
+</head>
+<body>
+
+<header> <!--Header -->
+
+    <!-- Top Navigation -->
+    <nav>
+        <ul class="clearfix">
+            <li><button class="what" href="#">Wut ?</button></li>
+            <li><button class="new" href="#">+ New Quiz</button></li>
+        </ul>
+    </nav>
+
+    <!-- Modal Information Box -->
+    <div class="overlay" id="modal">
+        <div class="content">
+            <h3>What do I do?</h3>
+            <div>
+                <p>Check you knowledge with our quiz. Now, stop procrastinating!</p>
+                    <button class="close" href="#">got it!</button></p>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+
+
+<section class="quiz"> <!-- guessing section -->
+
+
+        <h1>Quiz</h1>
+        <div id="stuff">
+            <h3 id="question"></h3>
+
+            <div id="choices"></div>
+            <br>
+            <button id="submit"></button>
+
+            <p id="score"></p>
+        </div>
+</section>
+</body>
+</html>
