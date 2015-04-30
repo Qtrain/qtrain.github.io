@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: ghostwhite;
+}
 .wrapper{
     margin: 0 5em;
 }
@@ -36,6 +38,7 @@ img {
 
 h4{
     padding: 2em;
+    line-height: 150%;
 }
 h2{
     padding: 2em;
@@ -50,7 +53,13 @@ ul{
 
 
 p{
-    padding: 2em 2em 2em 2em ;
+    padding: 2em 15em 2em 15em ;
     font-weight: bold;
     font-size: 12px;
+    line-height: 200%;
+    
+}
+
+li.menu > a{
+    color: #ffffff;
 }
