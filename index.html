@@ -53,36 +53,36 @@
                 </div>
                 <div class="sect">
                     <h4>Step 2: Next let's install vagrant<span class="inlineCode">sudo apt-get install vagrant</span></h4>
-                    <img src="img/rsz_downloadvagrant.png" height="300" width="650">
+                    <img src="img/rsz_downloadvagrant.png" class="img-responsive center-block">
                 </div>
                 <div class="sect">
                     <h4>Step3: Next let's make a directory for our vagrant boxes
                     <span class="inlineCode">mkdir vagrantBoxes</span>
                     Then we will change to that directory
                     <span class="inlineCode">cd vagrantBoxes/</span></h4>
-                    <img src=" img/skitch.jpeg">
+                    <img src=" img/skitch.jpeg" class="img-responsive center-block">
                 </div>
                 <div class="sect">
                     <h4>Step 4: Now we are ready to start a vagrant session with
                     <span class="inlineCode">vagrant init hashicorp/precise32</span></h4>
                     <p>This will place a vagrant file in our <span class="inlineCode">vagrantBoxes/</span> directory
                     However, in this example I had to use a modified command shown below. If you run into an error saying that <span class="inlineCode">the box 'hasicorp/precise32 could not be found</span> please check this <a href="https://github.com/mitchellh/vagrant/issues/5016">link</a> for the solution I used here</p>
-                    <img src="img/rsz_6_vagrant_init_precise32.png" width="650">
+                    <img src="img/rsz_6_vagrant_init_precise32.png" class="img-responsive center-block">
                 </div>
                 <div class="sect">
                     <h4>Step 5: we have just created a <span class="inlineCode">vagrantFile</span> which contains configuration settings for your virtual machine
                     so let's examine the vagrant file <span class="inlineCode">vim vagrantFile</span></h4>
                     <p>This is only a small part of the configuration file, but, we can see that our box is going to use <span class="inlineCode">hashicorp/precise32</span> which is the 32-bit version of Ubuntu 13.04 precise pangolin.  Other distributions can be found at <a href="https://atlas.hashicorp.com/boxes/search">HashiCorp's Atlas box catalog</a> </p>
-                    <img src="img/rsz_554267d8642b0.png">
+                    <img src="img/rsz_554267d8642b0.png" class="img-responsive center-block">
 
                 </div>
                 <div class="sect">
                     <h4>Step 8: Now we are ready to boot our machine up using<span class="inlineCode">vagrant up</span></h4>
-                    <img src="img/rsz_new.png">
+                    <img src="img/rsz_new.png" class="img-responsive center-block">
                 </div>
                 <div class="sect">
                     <h4>Finally we are ready to ssh into our new box <span class="inlineCode">vagrant ssh</span></h4>
-                    <img src="img/final.png">
+                    <img src="img/final.png" class="img-responsive center-block">
                 </div>
                 <div class="sect">
                     <blockquote> <p>Congratulations! You now have your very own vagrant box set up.  Have a look around.  Feel free to crash the machine and when you are done just use <span class="inlineCode">vagrant destroy</span>to destroy the box and start over
@@ -95,7 +95,7 @@
                         <li>Sharing</li>
                         <li>etc.</li>
                     </ul>
-                    <p>Be sure to check out the official documentation on vagrants <a href="www.vagrant.com">website</a></p>
+                    <p>Be sure to check out the official documentation on Vagrants <a href="https://www.vagrantup.com">(much, much nicer) website</a></p>
                         </blockquote>
                 </div>
             </div>
